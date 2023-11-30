@@ -1,0 +1,167 @@
+/* 
+
+
+.container{
+    border:solid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+
+.calculator{
+    padding: 30px;
+    border: solid;
+    height: 30px;
+    justify-content: center;
+    background: orange;
+    color: white;
+    font-size: 60px;
+    display: flex;
+}
+
+.calcBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    margin:10px;
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.answer {
+    text-align: center;
+    font-size: 40px;
+    border: solid;
+    margin-top: -2px;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    color: aliceblue;
+    text-align: right;
+    padding-right: 20px;
+    align-items: center;
+    font-size: 80px;
+    
+}
+span{
+align-items: center;
+text-align: center;
+}
+
+.equals {
+    width: 200px;
+    border-radius: 10%
+    ;
+
+}
+
+.buttons {
+    display: flex;
+    
+} */
+
+
+
+body {
+    font-family: 'VT323', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height:30rem;
+    border: solid 5px;
+    border-radius: 25px;
+    background-color: rgb(255, 0, 179);
+}
+
+.calculator{
+
+height: 4rem;
+text-align: center;
+align-items: center;
+justify-content: center;
+padding-top: 1rem;
+border-radius: 25px;
+
+
+}
+
+span {
+    font: bold;
+    font-size: 60px;
+    align-content: center;
+
+    
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    background-color: black;
+    padding-top: 10px;
+
+}
+.result {
+    height: 5rem;
+    width: 95%;
+    background-color: white;
+    color: black;
+    font-size: 60px;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+
+.result span{
+  margin-right: 2rem;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+    align-items: center;
+     border-radius:0 0px 20px 20px ;
+     height: 100%;
+    background-color: black
+}
+.column {
+    display: flex;
+ 
+    padding:10px;
+    width:85%;
+    justify-content: space-evenly;
+}
+
+input {
+    height: 2.5rem;
+    width: 4rem;
+    font-size: large;
+    border-radius: 25%;
+}
+
+#largeBtn {
+    width: 10rem;
+    border-radius: 25px;
+}
+
+.nan {
+    background-color: orange;
+}
